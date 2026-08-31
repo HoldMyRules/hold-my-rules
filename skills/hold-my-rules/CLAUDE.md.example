@@ -1,0 +1,140 @@
+<!--
+  This is a scaffold, not a finished file.
+
+  What this is: once it is filled in and saved as CLAUDE.md, Claude reads
+  it at the start of every session and follows what it says. A rule you
+  put here is one you do not have to repeat.
+
+  The easy way — let Claude set it up: tell Claude "set up Hold My
+  Rules". That runs Hold My Rules setup: Claude asks you a few short
+  questions, then writes the file for you, names it CLAUDE.md, puts it in
+  the right place inside Claude, and sets it to load every session — so
+  you can just get to work. You do not have to touch this scaffold
+  yourself. Claude asks before creating the file and confirms where it
+  went.
+
+  By hand instead:
+  1. Decide where it should live (see "Advanced: where to put it" below)
+     and copy it there.
+  2. Rename it to  CLAUDE.md  (drop the ".example").
+  3. Fill in the sections below.
+
+  Each section has a short guidance note and a few example lines. Copy
+  any example you like up under the heading and edit it to fit; delete
+  the rest. Keep it short — a page or so is plenty.
+
+  The examples are illustrations, not defaults and not recommendations.
+
+  ── ADVANCED ─────────────────────────────────────────────────────────
+  You can skip everything below. If you let Claude set this up, it
+  handles all of it for you.
+
+  Where to put it — your rules can apply to all your work or to just one
+  project:
+  - All your work (every project):  ~/.claude/CLAUDE.md
+  - Just this project (and anyone who opens it):  a file named CLAUDE.md
+    in the project's top folder
+
+  Rule of thumb: rules about how you like Claude to work -> make them
+  apply to all your work; rules about one specific project -> save them
+  in that project; not sure? -> Claude asks. If both files exist, Claude
+  reads both.
+
+  In this scaffold, "Working style" and "Output requirements" usually
+  belong in the all-your-work file; "Purpose", "Audience", and "Scope
+  and decision rules" are usually project-specific.
+
+  Either way, what you write here becomes the standing context for the
+  session. It raises the chance your rules are followed. It is not a
+  guarantee, and it is not a substitute for saying what you need in the
+  moment.
+
+  Auto-load: add the line below so the Hold My Rules skill loads every
+  session. You can also just ask Claude to "make Hold My Rules
+  automatic" and it will add this for you.
+
+      Use the hold-my-rules skill.
+
+  Self-named file: if you would rather keep your rules in a file with
+  its own name, save them as  hold-my-rules.md  and put this line in
+  CLAUDE.md instead:
+
+      @hold-my-rules.md
+  ─────────────────────────────────────────────────────────────────────
+-->
+
+# Project rules
+
+## Purpose
+<!-- What is this project? What are you trying to produce or achieve?
+
+     Example:
+     - A weekly customer newsletter for a small software company.
+-->
+
+
+## Audience
+<!-- Who is the output for? What do they already know? What do they
+     expect from it?
+
+     Example:
+     - Non-technical customers. No jargon. They want the point up front.
+-->
+
+
+## Working style
+<!-- How should Claude work with you? How much to explain, when to ask
+     before acting versus proceed, how much initiative to take, how to
+     handle uncertainty. State your own preferences.
+
+     Examples:
+     - Be direct and concise by default.
+     - Lead with the recommendation or answer.
+     - When unsure, make a reasonable call and flag it rather than
+       stopping to ask.
+-->
+
+
+## Output requirements
+<!-- Any fixed requirements for what Claude produces: format, structure,
+     file types, naming, length, voice, things to always or never
+     include. Leave blank if you have none.
+
+     Examples:
+     - Use tables for meaningful comparisons.
+     - Do not use emojis unless I ask.
+     - Make the tone sound natural.
+-->
+
+
+## Scope and decision rules
+<!-- What is in scope and out of scope? Which decisions are already made
+     and should not be reopened? What must Claude check with you about
+     before doing it?
+
+     Examples:
+     - Ask before making broad changes to existing files.
+     - The visual redesign is out of scope for now.
+-->
+
+
+## Editing and preservation rules
+<!-- When changing existing files: what must be left untouched? Specific
+     sections, wording, formatting, structure, formulas, or data? How
+     small should changes be by default?
+
+     Examples:
+     - When editing, preserve unrelated content and explain meaningful
+       changes.
+     - Make the smallest change that does the job.
+-->
+
+
+## Definition of done
+<!-- How do you know a task is finished and correct? What should Claude
+     check before telling you it is done?
+
+     Example:
+     - Re-read the result against these rules, then give me a one-line
+       summary of what changed.
+-->

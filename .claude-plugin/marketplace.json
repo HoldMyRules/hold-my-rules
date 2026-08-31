@@ -1,0 +1,17 @@
+{
+  "name": "holdmyrules",
+  "owner": {
+    "name": "Hold My Rules",
+    "url": "https://github.com/HoldMyRules"
+  },
+  "metadata": {
+    "description": "For people tired of repeating themselves to Claude."
+  },
+  "plugins": [
+    {
+      "name": "hold-my-rules",
+      "source": "./",
+      "description": "For people tired of repeating themselves. Keeps Claude on your tone, format, scope, decisions, and editing boundaries during a task."
+    }
+  ]
+}
