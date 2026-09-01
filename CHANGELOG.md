@@ -2,6 +2,11 @@
 
 Notable changes to Hold My Rules are recorded here. Newest first.
 
+## 0.1.1 — 2026-08-31
+
+- Add `displayName: "Hold My Rules"` to the plugin manifest so the `/plugin`
+  UI shows the proper casing instead of the auto-formatted "Hold my rules".
+
 ## 0.1 — 2026-08-31
 
 First release.
