@@ -164,6 +164,17 @@ Then start or restart Claude Code.
 
 ## Example use cases
 
+At a glance:
+
+- **Product managers** — keep every draft inside your spec's rules (length,
+  scope, settled decisions) without restating them each turn.
+- **Writers** — lock a voice once; every revision matches it, and Claude stops
+  rewriting lines you didn't ask it to touch.
+- **Docs & spreadsheets** — ask for one change and get exactly that; other
+  cells, formulas, and formatting stay untouched.
+
+In more detail:
+
 **Product manager.** Your `CLAUDE.md` says specs stay under a page, carry no
 engineering estimates, and the mobile app is out of scope for v1. An hour into
 a drafting session you ask Claude to expand the "success metrics" section. It
@@ -216,6 +227,11 @@ are already editing with Claude; it is not a live Google Sheets integration.)
 This is version 0.1. Bug reports and suggestions are welcome as issues at
 [github.com/HoldMyRules/hold-my-rules/issues](https://github.com/HoldMyRules/hold-my-rules/issues).
 See [`CHANGELOG.md`](CHANGELOG.md) for what has changed.
+
+## Privacy
+
+Hold My Rules collects nothing, sends nothing, and runs no code of its own —
+see [PRIVACY.md](PRIVACY.md).
 
 ## License
 

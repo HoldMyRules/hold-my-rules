@@ -2,6 +2,14 @@
 
 Notable changes to Hold My Rules are recorded here. Newest first.
 
+## 0.1.2 — 2026-08-31
+
+- Add `PRIVACY.md` (the plugin collects nothing, sends nothing, runs no code
+  of its own) and link it from the README.
+- Add `keywords` and a `homepage` link to the plugin manifest for
+  discoverability.
+- Add an "at a glance" use-case list to the README.
+
 ## 0.1.1 — 2026-08-31
 
 - Add `displayName: "Hold My Rules"` to the plugin manifest so the `/plugin`
