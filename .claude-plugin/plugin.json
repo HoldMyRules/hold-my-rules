@@ -2,7 +2,7 @@
   "name": "hold-my-rules",
   "displayName": "Hold My Rules",
   "description": "For people tired of repeating themselves. Keeps Claude on your tone, format, scope, decisions, and editing boundaries during a task, and can save your rules to a CLAUDE.md so they carry over.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "keywords": [
     "rules",

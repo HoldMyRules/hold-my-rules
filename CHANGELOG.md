@@ -2,6 +2,14 @@
 
 Notable changes to Hold My Rules are recorded here. Newest first.
 
+## 0.1.3 — 2026-08-31
+
+- Split the setup, automation, and rule-capture procedures out of `SKILL.md`
+  into `setup.md`, loaded only when the user is setting up or saving rules.
+  Cuts the everyday on-invoke cost of the skill by roughly two-thirds
+  (~6.2k → ~1.6k tokens); setup tasks read `setup.md` on demand.
+- Trim the plain-writing check and examples in `SKILL.md`.
+
 ## 0.1.2 — 2026-08-31
 
 - Add `PRIVACY.md` (the plugin collects nothing, sends nothing, runs no code
